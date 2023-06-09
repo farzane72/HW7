@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/Vazirmatn-Medium.eot"), url("fonts/Vazirmatn-Medium.woff"),
+    url("fonts/Vazirmatn-Medium.woff2 format('woff2')"),
+    url("fonts/Vazirmatn-Thin.ttf"), url("fonts/Vazirmatn-Light.ttf"),
+    url("fonts/Vazirmatn-Thin.woff2"), url("fonts/Vazirmatn-Light.woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+      font-family: Sahel;
+      src: url("fonts/Sahel.eot");
+      src: url("fonts/Sahel.eot?#iefix") format("embedded-opentype"),
+        url("fonts/Sahel.woff2") format("woff2"),
+        url("fonts/Sahel.woff") format("woff"),
+        url("fonts/Sahel.ttf") format("truetype");
+      font-weight: normal;
+    } */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: rgb(14, 14, 14);
+}
+body {
+  font-family: Vazirmatn;
+  
+}
+.container {
+  max-width: 800px;
+  background-color: rgb(169, 228, 243);
+  margin: 0px auto;
+  padding: 15px;
+}
+.container h1 {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #fff;
+}
+form {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  padding: 10px;
+  border: none;
+  margin-top:5px;
+}
+label {
+  padding-top: 20px;
+  border: none;
+}
+form button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgb(61, 181, 61);
+  border: none;
+  color:#fff;
+}
+.sec-select {
+  margin-top: 20px;
+}
+.select {
+  width: 80px;
+}
+.gender {
+  display: flex;
+  gap: 10px;
+}
+.lable { 
+  padding-top: 0;
+}
+h4 {
+  margin-top: 20px;
+}
+.phone{
+  margin-top: 20px;
+}
+.address{
+  height:100px ;
+  /* padding:0; */
+}
+
+.address::placeholder{
+ position:absolute;
+ top:10px;
+ left:5;
+}
+input:required {
+  background-color:#fff;
+  border: none;
+  outline: 1px solid red;
+  border-radius: 5px;
+}
